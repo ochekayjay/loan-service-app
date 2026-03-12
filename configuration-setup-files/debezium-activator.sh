@@ -1,0 +1,1 @@
+curl -i -X POST 127.0.0.1:8083/connectors/ -H "Content-Type: application/json" --data-binary @debezium.json

@@ -1,0 +1,6 @@
+- success count(int) : success_count => success_count
+- failure count(int) : failure_count => failure_count
+- total applicants (int) : total_applicants => success_count + failure_count
+- failure approval rate (%) : failure_approval_rate => (failure_count/total_applicants) * 100
+- success approval rate (%) : success_approval_rate => (success_count/total_applicants) * 100
+- marginal gain with super-imposed model (%) : marginal_gain_with_super-imposed_model => (success_count_from_business_demographics_model/total_applicants)*100

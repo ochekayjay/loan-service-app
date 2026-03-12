@@ -1,0 +1,15 @@
+{
+  "name": "exampledb-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "plugin.name": "pgoutput",
+    "database.hostname": "postgresdb",
+    "database.port": "5432",
+    "database.user": "ruleToData",
+    "database.password": "rule2Data",
+    "database.dbname": "ruleToData",
+    "topic.prefix": "postgres",
+    "table.include.list": "public.loan_requests,public.loan_requests_two,public.loan_requests_three"
+  }
+}
+
