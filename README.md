@@ -3,6 +3,7 @@
 
 This is a DE to BI pipeline animated with a loan service application to illustrate the sufficency of super-imposed business operation models to tracks market trends (in this case emerging markets) and cater for the shortcomings of singularly ran business operation models or business models that have exhauseted the maximally allowable paramters they can interplay with till failure point.
 
+**Set up paths**
 set up python environment with loanRequirements.txt file.
 for debezium set up run 'configuration-setup-files/debezium-activator.sh' in root folder.
 for exposing db publicly, run 'configuration-setup-files/database-exporter-via-ngrok.sh' in root folder.
